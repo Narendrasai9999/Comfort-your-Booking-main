@@ -11,8 +11,8 @@ const {listingSchema, reviewSchema} = require("./schema.js");
 const Review = require("./models/review.js");
 const { log } = require("console");
 require('dotenv').config();
+const MONGO_URL = "mongodb+srv://Narendra:Narendra%4098@cluster0.iwmbj.mongodb.net/yourDatabaseName?retryWrites=true&w=majority&appName=Cluster0";
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 
 
 app.set("view engine", "ejs");
